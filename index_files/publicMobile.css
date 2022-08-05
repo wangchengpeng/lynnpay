@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS mobile */
+
+
+
+/* screen 992 */
+@media screen and (max-width:767px){
+body{width:750px; margin:0 auto}
+.container { width:auto;}
+.fl_pc { float:none; display:block; }
+.fr_pc { float:none; display:block; }
+.pchide { display:block; }
+.mhide { display:none; }
+
+body{width:750px; margin:0 auto;}
+.mbanner{height:460px; background:url(m_banner.jpg) no-repeat center;}
+.banner_m{width:634px; margin:0 auto 0; left:0; position: relative;}
+.banner_m h3{font-size:36px;}
+.banner_m p{font-size:19px; margin:0 0 34px; }
+.banner_m h4{font-size:20px; line-height:34px;}
+.m_top_bg{background:#163870; width:750px; margin:0 auto;height:84px; }
+.m_top_bg .container{margin:0 24px; }
+.m_logo{margin-top:20px}
+.m_nav_lis{margin-top:24px}
+
+
+.foot_link a{font-size:24px; margin-left:33px; display:inline-block; line-height:66px; width:220px; margin-bottom:0}
+.foot_link{width:520px;margin: 20px 0 0 0;}
+.wx_img{width:120px; height:120px;}
+.wx_t{height:120px;}
+.footA_r2{margin-top:20px; margin-left:33px; float:left;}
+.footA_r2 h4{font-size:28px}
+.footA_r2 p{ font-size:24px; width:210px; background-size:auto 24px; padding-left:44px; height:48px; line-height:48px; float:left}
+.footA_r1{position:absolute;}
+.footA{position:relative}
+
+.m_nav{ background: rgba(1, 16, 61, 0.9); position:absolute; width:100%; z-index:5; padding-bottom:60px; display:none}
+.m_nav_list{margin:0 40px;}
+.m_nav_item{height:70px; border-bottom:1px solid #c9c9c9; color:#fff; font-size:35px; padding:0 30px 0 50px; line-height:70px;}
+.m_nav_up{background:url(m_nav_up.png); width:20px; height:13px; display:block; float:right; margin-top:32px;}
+.m_mav_box{padding-left:50px; display:none}
+.m_nav_title{font-size:30px; margin:20px 0 10px; color:#fff; font-weight:normal;}
+.m_nav_item a{color:#fff}
+.nav_sub_list dd{width:auto;line-height:30px;}
+.nav_sub_list dd a{font-size:24px}
+.nav_sub_list{width:auto; float:none}
+.nav_sub_hyyy dd a{font-size:26px}
+.nav_sub_hyyy dd{width:130px; margin:20px 40px 0 0}
+.m_mav_box{overflow:hidden}
+.m_nav_list li{margin-top:20px}
+
+.nav_sub_list dd a{font-size:26px;}
+.nav_sub_list dd{padding:14px 0 14px 40px}
+
+.m_gotop{position:fixed; bottom:40px; right:40px; z-index:10; width:120px; height:120px; display:none}
+.top_line{padding:0 45px; font-size:18px;}
+.gupiao{font-size:18px;}
+}
